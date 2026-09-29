@@ -16,21 +16,21 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 
-import com.beust.jcommander.Parameter;
 import com.nopCommers.utilities.ReadProp;
 
 public class BaseClass {
 	WebDriver driver;
 	ReadProp prop;
 	
-	@Parameter(names = "Browser")
+	@Parameters("Browser")
 	@BeforeTest
-	public void setUp( @Optional("Chrome") String browser) {
-		if(browser.equalsIgnoreCase(browser)) {
+	public void setUp(String browser) {
+		if(browser.equalsIgnoreCase("Chrome")) {
 			ChromeOptions opt=new ChromeOptions();	
 			driver=new ChromeDriver(opt);
-		}else if(browser.equalsIgnoreCase(browser)) {
+		}else if(browser.equalsIgnoreCase("Firefox")) {
 			FirefoxOptions opt=new FirefoxOptions();
 			driver=new FirefoxDriver(opt);	
 		}else {
@@ -44,7 +44,7 @@ public class BaseClass {
 	}
 	
 	
-	@AfterTest
+	// @AfterTest
 	public void tearDown(){
 		driver.quit();
 	}
