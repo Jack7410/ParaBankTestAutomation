@@ -5,5 +5,10 @@
 
  <parameter name="Browser" value="chrome"></parameter>
   <test thread-count="5" name="Test">
+  
+  	<classes>
+  		<class name="com.parabank.testcases.RegisterUser"></class>
+  		<!-- <class name="com.parabank.testcases.LoginTest"></class> -->
+  	</classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
