@@ -1,0 +1,301 @@
+2026-09-30 10:16:20 [main] INFO  com.parabank.testcases.BaseClass - Launching Firefox Browser
+2026-09-30 10:16:25 [main] INFO  com.parabank.testcases.BaseClass - Maximizing the window and navigating to the URL
+2026-09-30 10:16:25 [main] INFO  com.parabank.testcases.BaseClass - Navigating to the URL: https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC
+2026-09-30 10:16:28 [main] INFO  com.parabank.testcases.BaseClass - Closing the browser
+2026-09-30 10:16:29 [main] INFO  com.parabank.testcases.BaseClass - Launching Firefox Browser
+2026-09-30 10:16:32 [main] INFO  com.parabank.testcases.BaseClass - Maximizing the window and navigating to the URL
+2026-09-30 10:16:32 [main] INFO  com.parabank.testcases.BaseClass - Navigating to the URL: https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC
+2026-09-30 10:16:34 [main] INFO  com.parabank.testcases.BaseClass - Starting Login Test
+2026-09-30 10:16:34 [main] INFO  com.parabank.testcases.BaseClass - Entering Username: Sam
+2026-09-30 10:16:34 [main] INFO  com.parabank.testcases.BaseClass - Entering Password: **********************
+2026-09-30 10:16:35 [main] INFO  com.parabank.testcases.BaseClass - Clicking on Login Button
+2026-09-30 10:16:35 [main] INFO  com.parabank.testcases.BaseClass - Closing the browser
+2026-09-30 10:25:03 [main] INFO  com.parabank.testcases.BaseClass - Launching Firefox Browser
+2026-09-30 10:25:06 [main] INFO  com.parabank.testcases.BaseClass - Maximizing the window and navigating to the URL
+2026-09-30 10:25:06 [main] INFO  com.parabank.testcases.BaseClass - Navigating to the URL: https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC
+2026-09-30 10:25:08 [main] INFO  com.parabank.testcases.BaseClass - Starting register user test
+2026-09-30 10:25:08 [main] INFO  com.parabank.testcases.BaseClass - Clicked on register user btn
+2026-09-30 10:25:08 [main] INFO  com.parabank.testcases.BaseClass - Entered first name as: Sam
+2026-09-30 10:25:08 [main] INFO  com.parabank.testcases.BaseClass - Entered last name as: Johns
+2026-09-30 10:25:08 [main] INFO  com.parabank.testcases.BaseClass - Entered address as: Sample
+2026-09-30 10:25:08 [main] INFO  com.parabank.testcases.BaseClass - Entered city as: Pune
+2026-09-30 10:25:08 [main] INFO  com.parabank.testcases.BaseClass - Entered state as: Goa
+2026-09-30 10:25:08 [main] INFO  com.parabank.testcases.BaseClass - Entered zipCode as: 54789
+2026-09-30 10:25:08 [main] INFO  com.parabank.testcases.BaseClass - Entered phoneNo as: 895623145
+2026-09-30 10:25:08 [main] INFO  com.parabank.testcases.BaseClass - Entered Snn as: 526
+2026-09-30 10:25:08 [main] INFO  com.parabank.testcases.BaseClass - Entered Username as: Jack
+2026-09-30 10:25:08 [main] INFO  com.parabank.testcases.BaseClass - Entered Userpass as: *****
+2026-09-30 10:25:08 [main] INFO  com.parabank.testcases.BaseClass - Confirmed user pass: 
+2026-09-30 10:25:39 [main] INFO  com.parabank.testcases.BaseClass - Launching Firefox Browser
+2026-09-30 10:25:42 [main] INFO  com.parabank.testcases.BaseClass - Maximizing the window and navigating to the URL
+2026-09-30 10:25:42 [main] INFO  com.parabank.testcases.BaseClass - Navigating to the URL: https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC
+2026-09-30 10:25:44 [main] INFO  com.parabank.testcases.BaseClass - Starting register user test
+2026-09-30 10:25:45 [main] INFO  com.parabank.testcases.BaseClass - Clicked on register user btn
+2026-09-30 10:25:45 [main] INFO  com.parabank.testcases.BaseClass - Entered first name as: Sam
+2026-09-30 10:25:45 [main] INFO  com.parabank.testcases.BaseClass - Entered last name as: Johns
+2026-09-30 10:25:45 [main] INFO  com.parabank.testcases.BaseClass - Entered address as: Sample
+2026-09-30 10:25:45 [main] INFO  com.parabank.testcases.BaseClass - Entered city as: Pune
+2026-09-30 10:25:45 [main] INFO  com.parabank.testcases.BaseClass - Entered state as: Goa
+2026-09-30 10:25:45 [main] INFO  com.parabank.testcases.BaseClass - Entered zipCode as: 54789
+2026-09-30 10:25:45 [main] INFO  com.parabank.testcases.BaseClass - Entered phoneNo as: 895623145
+2026-09-30 10:25:45 [main] INFO  com.parabank.testcases.BaseClass - Entered Snn as: 526
+2026-09-30 10:25:45 [main] INFO  com.parabank.testcases.BaseClass - Entered Username as: Jack
+2026-09-30 10:25:45 [main] INFO  com.parabank.testcases.BaseClass - Entered Userpass as: *****
+2026-09-30 10:25:45 [main] INFO  com.parabank.testcases.BaseClass - Confirmed user pass: 
+2026-09-30 10:27:38 [main] INFO  com.parabank.testcases.BaseClass - Launching Firefox Browser
+2026-09-30 10:27:41 [main] INFO  com.parabank.testcases.BaseClass - Maximizing the window and navigating to the URL
+2026-09-30 10:27:41 [main] INFO  com.parabank.testcases.BaseClass - Navigating to the URL: https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC
+2026-09-30 10:27:43 [main] INFO  com.parabank.testcases.BaseClass - Starting register user test
+2026-09-30 10:27:44 [main] INFO  com.parabank.testcases.BaseClass - Clicked on register user btn
+2026-09-30 10:27:44 [main] INFO  com.parabank.testcases.BaseClass - Entered first name as: Tess
+2026-09-30 10:27:44 [main] INFO  com.parabank.testcases.BaseClass - Entered last name as: Johns
+2026-09-30 10:27:44 [main] INFO  com.parabank.testcases.BaseClass - Entered address as: Sample
+2026-09-30 10:27:44 [main] INFO  com.parabank.testcases.BaseClass - Entered city as: Pune
+2026-09-30 10:27:44 [main] INFO  com.parabank.testcases.BaseClass - Entered state as: Goa
+2026-09-30 10:27:44 [main] INFO  com.parabank.testcases.BaseClass - Entered zipCode as: 54789
+2026-09-30 10:27:44 [main] INFO  com.parabank.testcases.BaseClass - Entered phoneNo as: 895623145
+2026-09-30 10:27:44 [main] INFO  com.parabank.testcases.BaseClass - Entered Snn as: 526
+2026-09-30 10:27:44 [main] INFO  com.parabank.testcases.BaseClass - Entered Username as: Tess
+2026-09-30 10:27:44 [main] INFO  com.parabank.testcases.BaseClass - Entered Userpass as: *****
+2026-09-30 10:27:44 [main] INFO  com.parabank.testcases.BaseClass - Confirmed user pass: 
+2026-09-30 10:30:27 [main] INFO  com.parabank.testcases.BaseClass - Launching Chrome Browser
+2026-09-30 10:30:34 [main] INFO  com.parabank.testcases.BaseClass - Maximizing the window and navigating to the URL
+2026-09-30 10:30:34 [main] INFO  com.parabank.testcases.BaseClass - Navigating to the URL: https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC
+2026-09-30 10:30:36 [main] INFO  com.parabank.testcases.BaseClass - Starting register user test
+2026-09-30 10:30:37 [main] INFO  com.parabank.testcases.BaseClass - Clicked on register user btn
+2026-09-30 10:30:37 [main] INFO  com.parabank.testcases.BaseClass - Entered first name as: July
+2026-09-30 10:30:37 [main] INFO  com.parabank.testcases.BaseClass - Entered last name as: Johns
+2026-09-30 10:30:37 [main] INFO  com.parabank.testcases.BaseClass - Entered address as: Sample
+2026-09-30 10:30:37 [main] INFO  com.parabank.testcases.BaseClass - Entered city as: Pune
+2026-09-30 10:30:37 [main] INFO  com.parabank.testcases.BaseClass - Entered state as: Goa
+2026-09-30 10:30:37 [main] INFO  com.parabank.testcases.BaseClass - Entered zipCode as: 54789
+2026-09-30 10:30:37 [main] INFO  com.parabank.testcases.BaseClass - Entered phoneNo as: 895623145
+2026-09-30 10:30:37 [main] INFO  com.parabank.testcases.BaseClass - Entered Snn as: 526
+2026-09-30 10:30:37 [main] INFO  com.parabank.testcases.BaseClass - Entered Username as: July
+2026-09-30 10:30:37 [main] INFO  com.parabank.testcases.BaseClass - Entered Userpass as: *****
+2026-09-30 10:30:37 [main] INFO  com.parabank.testcases.BaseClass - Confirmed user pass: 
+2026-09-30 10:44:59 [main] INFO  com.parabank.testcases.BaseClass - Launching Chrome Browser
+2026-09-30 10:45:00 [main] INFO  com.parabank.testcases.BaseClass - Maximizing the window and navigating to the URL
+2026-09-30 10:45:00 [main] INFO  com.parabank.testcases.BaseClass - Navigating to the URL: https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC
+2026-09-30 10:45:02 [main] INFO  com.parabank.testcases.BaseClass - Starting register user test
+2026-09-30 10:47:36 [main] INFO  com.parabank.testcases.BaseClass - Launching Chrome Browser
+2026-09-30 10:47:37 [main] INFO  com.parabank.testcases.BaseClass - Maximizing the window and navigating to the URL
+2026-09-30 10:47:37 [main] INFO  com.parabank.testcases.BaseClass - Navigating to the URL: https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC
+2026-09-30 10:47:39 [main] INFO  com.parabank.testcases.BaseClass - Starting register user test
+2026-09-30 10:47:40 [main] INFO  com.parabank.testcases.BaseClass - Clicked on register user btn
+2026-09-30 10:47:40 [main] INFO  com.parabank.testcases.BaseClass - Verified page title for register user
+2026-09-30 10:47:40 [main] INFO  com.parabank.testcases.BaseClass - Entered first name as: July
+2026-09-30 10:47:40 [main] INFO  com.parabank.testcases.BaseClass - Entered last name as: Johns
+2026-09-30 10:47:40 [main] INFO  com.parabank.testcases.BaseClass - Entered address as: Sample
+2026-09-30 10:47:40 [main] INFO  com.parabank.testcases.BaseClass - Entered city as: Pune
+2026-09-30 10:47:40 [main] INFO  com.parabank.testcases.BaseClass - Entered state as: Goa
+2026-09-30 10:47:40 [main] INFO  com.parabank.testcases.BaseClass - Entered zipCode as: 54789
+2026-09-30 10:47:40 [main] INFO  com.parabank.testcases.BaseClass - Entered phoneNo as: 895623145
+2026-09-30 10:47:40 [main] INFO  com.parabank.testcases.BaseClass - Entered Snn as: 526
+2026-09-30 10:47:40 [main] INFO  com.parabank.testcases.BaseClass - Entered Username as: July
+2026-09-30 10:47:40 [main] INFO  com.parabank.testcases.BaseClass - Entered Userpass as: *****
+2026-09-30 10:47:40 [main] INFO  com.parabank.testcases.BaseClass - Confirmed user pass: 
+2026-09-30 10:47:41 [main] INFO  com.parabank.testcases.BaseClass - Clicked to register btn
+2026-09-30 10:48:08 [main] INFO  com.parabank.testcases.BaseClass - Launching Chrome Browser
+2026-09-30 10:48:09 [main] INFO  com.parabank.testcases.BaseClass - Maximizing the window and navigating to the URL
+2026-09-30 10:48:09 [main] INFO  com.parabank.testcases.BaseClass - Navigating to the URL: https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC
+2026-09-30 10:48:10 [main] INFO  com.parabank.testcases.BaseClass - Starting register user test
+2026-09-30 10:48:11 [main] INFO  com.parabank.testcases.BaseClass - Clicked on register user btn
+2026-09-30 10:48:11 [main] INFO  com.parabank.testcases.BaseClass - Verified page title for register user
+2026-09-30 10:48:11 [main] INFO  com.parabank.testcases.BaseClass - Entered first name as: July
+2026-09-30 10:48:11 [main] INFO  com.parabank.testcases.BaseClass - Entered last name as: Johns
+2026-09-30 10:48:11 [main] INFO  com.parabank.testcases.BaseClass - Entered address as: Sample
+2026-09-30 10:48:11 [main] INFO  com.parabank.testcases.BaseClass - Entered city as: Pune
+2026-09-30 10:48:11 [main] INFO  com.parabank.testcases.BaseClass - Entered state as: Goa
+2026-09-30 10:48:11 [main] INFO  com.parabank.testcases.BaseClass - Entered zipCode as: 54789
+2026-09-30 10:48:11 [main] INFO  com.parabank.testcases.BaseClass - Entered phoneNo as: 895623145
+2026-09-30 10:48:11 [main] INFO  com.parabank.testcases.BaseClass - Entered Snn as: 526
+2026-09-30 10:48:11 [main] INFO  com.parabank.testcases.BaseClass - Entered Username as: July
+2026-09-30 10:48:11 [main] INFO  com.parabank.testcases.BaseClass - Entered Userpass as: *****
+2026-09-30 10:48:11 [main] INFO  com.parabank.testcases.BaseClass - Confirmed user pass: 
+2026-09-30 10:48:12 [main] INFO  com.parabank.testcases.BaseClass - Clicked to register btn
+2026-09-30 11:08:36 [main] INFO  com.parabank.testcases.BaseClass - Launching Chrome Browser
+2026-09-30 11:08:37 [main] INFO  com.parabank.testcases.BaseClass - Maximizing the window and navigating to the URL
+2026-09-30 11:08:37 [main] INFO  com.parabank.testcases.BaseClass - Navigating to the URL: https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC
+2026-09-30 11:08:39 [main] INFO  com.parabank.testcases.BaseClass - Starting register user test
+2026-09-30 11:08:40 [main] INFO  com.parabank.testcases.BaseClass - Clicked on register user btn
+2026-09-30 11:08:40 [main] INFO  com.parabank.testcases.BaseClass - Verified page title for register user
+2026-09-30 11:08:40 [main] INFO  com.parabank.testcases.BaseClass - Entered first name as: July
+2026-09-30 11:08:40 [main] INFO  com.parabank.testcases.BaseClass - Entered last name as: Johns
+2026-09-30 11:08:40 [main] INFO  com.parabank.testcases.BaseClass - Entered address as: Sample
+2026-09-30 11:08:40 [main] INFO  com.parabank.testcases.BaseClass - Entered city as: Pune
+2026-09-30 11:08:40 [main] INFO  com.parabank.testcases.BaseClass - Entered state as: Goa
+2026-09-30 11:08:40 [main] INFO  com.parabank.testcases.BaseClass - Entered zipCode as: 54789
+2026-09-30 11:08:40 [main] INFO  com.parabank.testcases.BaseClass - Entered phoneNo as: 895623145
+2026-09-30 11:08:40 [main] INFO  com.parabank.testcases.BaseClass - Entered Snn as: 526
+2026-09-30 11:08:40 [main] INFO  com.parabank.testcases.BaseClass - Entered Username as: July
+2026-09-30 11:08:40 [main] INFO  com.parabank.testcases.BaseClass - Entered Userpass as: *****
+2026-09-30 11:08:40 [main] INFO  com.parabank.testcases.BaseClass - Confirmed user pass: 
+2026-09-30 11:08:40 [main] INFO  com.parabank.testcases.BaseClass - Clicked to register btn
+2026-09-30 11:10:12 [main] INFO  com.parabank.testcases.BaseClass - Launching Chrome Browser
+2026-09-30 11:10:13 [main] INFO  com.parabank.testcases.BaseClass - Maximizing the window and navigating to the URL
+2026-09-30 11:10:13 [main] INFO  com.parabank.testcases.BaseClass - Navigating to the URL: https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC
+2026-09-30 11:10:14 [main] INFO  com.parabank.testcases.BaseClass - Starting register user test
+2026-09-30 11:10:15 [main] INFO  com.parabank.testcases.BaseClass - Clicked on register user btn
+2026-09-30 11:10:15 [main] INFO  com.parabank.testcases.BaseClass - Verified page title for register user
+2026-09-30 11:10:15 [main] INFO  com.parabank.testcases.BaseClass - Entered first name as: July
+2026-09-30 11:10:15 [main] INFO  com.parabank.testcases.BaseClass - Entered last name as: Johns
+2026-09-30 11:10:15 [main] INFO  com.parabank.testcases.BaseClass - Entered address as: Sample
+2026-09-30 11:10:15 [main] INFO  com.parabank.testcases.BaseClass - Entered city as: Pune
+2026-09-30 11:10:15 [main] INFO  com.parabank.testcases.BaseClass - Entered state as: Goa
+2026-09-30 11:10:15 [main] INFO  com.parabank.testcases.BaseClass - Entered zipCode as: 54789
+2026-09-30 11:10:15 [main] INFO  com.parabank.testcases.BaseClass - Entered phoneNo as: 895623145
+2026-09-30 11:10:15 [main] INFO  com.parabank.testcases.BaseClass - Entered Snn as: 526
+2026-09-30 11:10:15 [main] INFO  com.parabank.testcases.BaseClass - Entered Username as: July
+2026-09-30 11:10:15 [main] INFO  com.parabank.testcases.BaseClass - Entered Userpass as: *****
+2026-09-30 11:10:15 [main] INFO  com.parabank.testcases.BaseClass - Confirmed user pass: 
+2026-09-30 11:10:15 [main] INFO  com.parabank.testcases.BaseClass - Clicked to register btn
+2026-09-30 11:11:53 [main] INFO  com.parabank.testcases.BaseClass - Launching Chrome Browser
+2026-09-30 11:11:55 [main] INFO  com.parabank.testcases.BaseClass - Maximizing the window and navigating to the URL
+2026-09-30 11:11:55 [main] INFO  com.parabank.testcases.BaseClass - Navigating to the URL: https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC
+2026-09-30 11:11:56 [main] INFO  com.parabank.testcases.BaseClass - Starting register user test
+2026-09-30 11:11:57 [main] INFO  com.parabank.testcases.BaseClass - Clicked on register user btn
+2026-09-30 11:11:57 [main] INFO  com.parabank.testcases.BaseClass - Verified page title for register user
+2026-09-30 11:11:57 [main] INFO  com.parabank.testcases.BaseClass - Entered first name as: July
+2026-09-30 11:11:57 [main] INFO  com.parabank.testcases.BaseClass - Entered last name as: Johns
+2026-09-30 11:11:57 [main] INFO  com.parabank.testcases.BaseClass - Entered address as: Sample
+2026-09-30 11:11:57 [main] INFO  com.parabank.testcases.BaseClass - Entered city as: Pune
+2026-09-30 11:11:57 [main] INFO  com.parabank.testcases.BaseClass - Entered state as: Goa
+2026-09-30 11:11:57 [main] INFO  com.parabank.testcases.BaseClass - Entered zipCode as: 54789
+2026-09-30 11:11:57 [main] INFO  com.parabank.testcases.BaseClass - Entered phoneNo as: 895623145
+2026-09-30 11:11:57 [main] INFO  com.parabank.testcases.BaseClass - Entered Snn as: 526
+2026-09-30 11:11:57 [main] INFO  com.parabank.testcases.BaseClass - Entered Username as: July
+2026-09-30 11:11:57 [main] INFO  com.parabank.testcases.BaseClass - Entered Userpass as: *****
+2026-09-30 11:11:57 [main] INFO  com.parabank.testcases.BaseClass - Confirmed user pass: 
+2026-09-30 11:11:57 [main] INFO  com.parabank.testcases.BaseClass - Clicked to register btn
+2026-09-30 11:11:58 [main] ERROR com.parabank.testcases.BaseClass - This username already exists.
+2026-09-30 11:12:25 [main] INFO  com.parabank.testcases.BaseClass - Launching Chrome Browser
+2026-09-30 11:12:26 [main] INFO  com.parabank.testcases.BaseClass - Maximizing the window and navigating to the URL
+2026-09-30 11:12:26 [main] INFO  com.parabank.testcases.BaseClass - Navigating to the URL: https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC
+2026-09-30 11:12:29 [main] INFO  com.parabank.testcases.BaseClass - Starting register user test
+2026-09-30 11:12:29 [main] INFO  com.parabank.testcases.BaseClass - Clicked on register user btn
+2026-09-30 11:12:29 [main] INFO  com.parabank.testcases.BaseClass - Verified page title for register user
+2026-09-30 11:12:29 [main] INFO  com.parabank.testcases.BaseClass - Entered first name as: July
+2026-09-30 11:12:30 [main] INFO  com.parabank.testcases.BaseClass - Entered last name as: Johns
+2026-09-30 11:12:30 [main] INFO  com.parabank.testcases.BaseClass - Entered address as: Sample
+2026-09-30 11:12:30 [main] INFO  com.parabank.testcases.BaseClass - Entered city as: Pune
+2026-09-30 11:12:30 [main] INFO  com.parabank.testcases.BaseClass - Entered state as: Goa
+2026-09-30 11:12:30 [main] INFO  com.parabank.testcases.BaseClass - Entered zipCode as: 54789
+2026-09-30 11:12:30 [main] INFO  com.parabank.testcases.BaseClass - Entered phoneNo as: 895623145
+2026-09-30 11:12:30 [main] INFO  com.parabank.testcases.BaseClass - Entered Snn as: 526
+2026-09-30 11:12:30 [main] INFO  com.parabank.testcases.BaseClass - Entered Username as: July
+2026-09-30 11:12:30 [main] INFO  com.parabank.testcases.BaseClass - Entered Userpass as: *****
+2026-09-30 11:12:30 [main] INFO  com.parabank.testcases.BaseClass - Confirmed user pass: 
+2026-09-30 11:12:30 [main] INFO  com.parabank.testcases.BaseClass - Clicked to register btn
+2026-09-30 11:12:30 [main] ERROR com.parabank.testcases.BaseClass - This username already exists.
+2026-09-30 11:13:43 [main] INFO  com.parabank.testcases.BaseClass - Launching Chrome Browser
+2026-09-30 11:13:44 [main] INFO  com.parabank.testcases.BaseClass - Maximizing the window and navigating to the URL
+2026-09-30 11:13:44 [main] INFO  com.parabank.testcases.BaseClass - Navigating to the URL: https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC
+2026-09-30 11:13:46 [main] INFO  com.parabank.testcases.BaseClass - Starting register user test
+2026-09-30 11:13:46 [main] INFO  com.parabank.testcases.BaseClass - Clicked on register user btn
+2026-09-30 11:13:46 [main] INFO  com.parabank.testcases.BaseClass - Verified page title for register user
+2026-09-30 11:13:46 [main] INFO  com.parabank.testcases.BaseClass - Entered first name as: Mike
+2026-09-30 11:13:46 [main] INFO  com.parabank.testcases.BaseClass - Entered last name as: Johns
+2026-09-30 11:13:46 [main] INFO  com.parabank.testcases.BaseClass - Entered address as: Sample
+2026-09-30 11:13:46 [main] INFO  com.parabank.testcases.BaseClass - Entered city as: Pune
+2026-09-30 11:13:47 [main] INFO  com.parabank.testcases.BaseClass - Entered state as: Goa
+2026-09-30 11:13:47 [main] INFO  com.parabank.testcases.BaseClass - Entered zipCode as: 54789
+2026-09-30 11:13:47 [main] INFO  com.parabank.testcases.BaseClass - Entered phoneNo as: 895623145
+2026-09-30 11:13:47 [main] INFO  com.parabank.testcases.BaseClass - Entered Snn as: 526
+2026-09-30 11:13:47 [main] INFO  com.parabank.testcases.BaseClass - Entered Username as: Mike
+2026-09-30 11:13:47 [main] INFO  com.parabank.testcases.BaseClass - Entered Userpass as: *****
+2026-09-30 11:13:47 [main] INFO  com.parabank.testcases.BaseClass - Confirmed user pass: 
+2026-09-30 11:13:47 [main] INFO  com.parabank.testcases.BaseClass - Clicked to register btn
+2026-09-30 11:15:25 [main] INFO  com.parabank.testcases.BaseClass - Launching Chrome Browser
+2026-09-30 11:15:26 [main] INFO  com.parabank.testcases.BaseClass - Maximizing the window and navigating to the URL
+2026-09-30 11:15:26 [main] INFO  com.parabank.testcases.BaseClass - Navigating to the URL: https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC
+2026-09-30 11:15:28 [main] INFO  com.parabank.testcases.BaseClass - Starting register user test
+2026-09-30 11:15:29 [main] INFO  com.parabank.testcases.BaseClass - Clicked on register user btn
+2026-09-30 11:15:29 [main] INFO  com.parabank.testcases.BaseClass - Verified page title for register user
+2026-09-30 11:15:29 [main] INFO  com.parabank.testcases.BaseClass - Entered first name as: Champ
+2026-09-30 11:15:29 [main] INFO  com.parabank.testcases.BaseClass - Entered last name as: Johns
+2026-09-30 11:15:29 [main] INFO  com.parabank.testcases.BaseClass - Entered address as: Sample
+2026-09-30 11:15:29 [main] INFO  com.parabank.testcases.BaseClass - Entered city as: Pune
+2026-09-30 11:15:29 [main] INFO  com.parabank.testcases.BaseClass - Entered state as: Goa
+2026-09-30 11:15:29 [main] INFO  com.parabank.testcases.BaseClass - Entered zipCode as: 54789
+2026-09-30 11:15:29 [main] INFO  com.parabank.testcases.BaseClass - Entered phoneNo as: 895623145
+2026-09-30 11:15:29 [main] INFO  com.parabank.testcases.BaseClass - Entered Snn as: 526
+2026-09-30 11:15:29 [main] INFO  com.parabank.testcases.BaseClass - Entered Username as: Champ
+2026-09-30 11:15:29 [main] INFO  com.parabank.testcases.BaseClass - Entered Userpass as: *****
+2026-09-30 11:15:29 [main] INFO  com.parabank.testcases.BaseClass - Confirmed user pass: 
+2026-09-30 11:15:29 [main] INFO  com.parabank.testcases.BaseClass - Clicked to register btn
+2026-09-30 12:01:19 [main] INFO  com.parabank.testcases.BaseClass - Launching Chrome Browser
+2026-09-30 12:01:21 [main] INFO  com.parabank.testcases.BaseClass - Maximizing the window and navigating to the URL
+2026-09-30 12:01:21 [main] INFO  com.parabank.testcases.BaseClass - Navigating to the URL: https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC
+2026-09-30 12:01:24 [main] INFO  com.parabank.testcases.BaseClass - Starting register user test
+2026-09-30 12:01:24 [main] INFO  com.parabank.testcases.BaseClass - Clicked on register user btn
+2026-09-30 12:01:24 [main] INFO  com.parabank.testcases.BaseClass - Verified page title for register user
+2026-09-30 12:01:24 [main] INFO  com.parabank.testcases.BaseClass - Entered first name as: Champ
+2026-09-30 12:01:24 [main] INFO  com.parabank.testcases.BaseClass - Entered last name as: Johns
+2026-09-30 12:01:25 [main] INFO  com.parabank.testcases.BaseClass - Entered address as: Sample
+2026-09-30 12:01:25 [main] INFO  com.parabank.testcases.BaseClass - Entered city as: Pune
+2026-09-30 12:01:25 [main] INFO  com.parabank.testcases.BaseClass - Entered state as: Goa
+2026-09-30 12:01:25 [main] INFO  com.parabank.testcases.BaseClass - Entered zipCode as: 54789
+2026-09-30 12:01:25 [main] INFO  com.parabank.testcases.BaseClass - Entered phoneNo as: 895623145
+2026-09-30 12:01:25 [main] INFO  com.parabank.testcases.BaseClass - Entered Snn as: 526
+2026-09-30 12:01:25 [main] INFO  com.parabank.testcases.BaseClass - Entered Username as: Champ
+2026-09-30 12:01:25 [main] INFO  com.parabank.testcases.BaseClass - Entered Userpass as: *****
+2026-09-30 12:01:25 [main] INFO  com.parabank.testcases.BaseClass - Confirmed user pass: 
+2026-09-30 12:01:25 [main] INFO  com.parabank.testcases.BaseClass - Clicked to register btn
+2026-09-30 12:01:25 [main] ERROR com.parabank.testcases.BaseClass - This username already exists.
+2026-09-30 12:01:51 [main] INFO  com.parabank.testcases.BaseClass - Launching Chrome Browser
+2026-09-30 12:01:53 [main] INFO  com.parabank.testcases.BaseClass - Maximizing the window and navigating to the URL
+2026-09-30 12:01:53 [main] INFO  com.parabank.testcases.BaseClass - Navigating to the URL: https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC
+2026-09-30 12:01:54 [main] INFO  com.parabank.testcases.BaseClass - Starting register user test
+2026-09-30 12:01:55 [main] INFO  com.parabank.testcases.BaseClass - Clicked on register user btn
+2026-09-30 12:01:55 [main] INFO  com.parabank.testcases.BaseClass - Verified page title for register user
+2026-09-30 12:01:55 [main] INFO  com.parabank.testcases.BaseClass - Entered first name as: Will
+2026-09-30 12:01:55 [main] INFO  com.parabank.testcases.BaseClass - Entered last name as: Johns
+2026-09-30 12:01:55 [main] INFO  com.parabank.testcases.BaseClass - Entered address as: Sample
+2026-09-30 12:01:55 [main] INFO  com.parabank.testcases.BaseClass - Entered city as: Pune
+2026-09-30 12:01:55 [main] INFO  com.parabank.testcases.BaseClass - Entered state as: Goa
+2026-09-30 12:01:55 [main] INFO  com.parabank.testcases.BaseClass - Entered zipCode as: 54789
+2026-09-30 12:01:55 [main] INFO  com.parabank.testcases.BaseClass - Entered phoneNo as: 895623145
+2026-09-30 12:01:55 [main] INFO  com.parabank.testcases.BaseClass - Entered Snn as: 526
+2026-09-30 12:01:55 [main] INFO  com.parabank.testcases.BaseClass - Entered Username as: Will
+2026-09-30 12:01:55 [main] INFO  com.parabank.testcases.BaseClass - Entered Userpass as: *****
+2026-09-30 12:01:55 [main] INFO  com.parabank.testcases.BaseClass - Confirmed user pass: 
+2026-09-30 12:01:55 [main] INFO  com.parabank.testcases.BaseClass - Clicked to register btn
+2026-09-30 12:05:03 [main] INFO  com.parabank.testcases.BaseClass - Launching Chrome Browser
+2026-09-30 12:05:04 [main] INFO  com.parabank.testcases.BaseClass - Maximizing the window and navigating to the URL
+2026-09-30 12:05:04 [main] INFO  com.parabank.testcases.BaseClass - Navigating to the URL: https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC
+2026-09-30 12:05:06 [main] INFO  com.parabank.testcases.BaseClass - Starting register user test
+2026-09-30 12:05:06 [main] INFO  com.parabank.testcases.BaseClass - Clicked on register user btn
+2026-09-30 12:05:06 [main] INFO  com.parabank.testcases.BaseClass - Verified page title for register user
+2026-09-30 12:05:06 [main] INFO  com.parabank.testcases.BaseClass - Entered first name as: Will
+2026-09-30 12:05:07 [main] INFO  com.parabank.testcases.BaseClass - Entered last name as: Johns
+2026-09-30 12:05:07 [main] INFO  com.parabank.testcases.BaseClass - Entered address as: Sample
+2026-09-30 12:05:07 [main] INFO  com.parabank.testcases.BaseClass - Entered city as: Pune
+2026-09-30 12:05:07 [main] INFO  com.parabank.testcases.BaseClass - Entered state as: Goa
+2026-09-30 12:05:07 [main] INFO  com.parabank.testcases.BaseClass - Entered zipCode as: 54789
+2026-09-30 12:05:07 [main] INFO  com.parabank.testcases.BaseClass - Entered phoneNo as: 895623145
+2026-09-30 12:05:07 [main] INFO  com.parabank.testcases.BaseClass - Entered Snn as: 526
+2026-09-30 12:05:07 [main] INFO  com.parabank.testcases.BaseClass - Entered Username as: Will
+2026-09-30 12:05:07 [main] INFO  com.parabank.testcases.BaseClass - Entered Userpass as: *****
+2026-09-30 12:05:07 [main] INFO  com.parabank.testcases.BaseClass - Confirmed user pass: 
+2026-09-30 12:05:07 [main] INFO  com.parabank.testcases.BaseClass - Clicked to register btn
+2026-09-30 12:05:07 [main] ERROR com.parabank.testcases.BaseClass - This username already exists.
+2026-09-30 12:05:32 [main] INFO  com.parabank.testcases.BaseClass - Launching Chrome Browser
+2026-09-30 12:05:33 [main] INFO  com.parabank.testcases.BaseClass - Maximizing the window and navigating to the URL
+2026-09-30 12:05:33 [main] INFO  com.parabank.testcases.BaseClass - Navigating to the URL: https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC
+2026-09-30 12:05:35 [main] INFO  com.parabank.testcases.BaseClass - Starting register user test
+2026-09-30 12:05:35 [main] INFO  com.parabank.testcases.BaseClass - Clicked on register user btn
+2026-09-30 12:05:35 [main] INFO  com.parabank.testcases.BaseClass - Verified page title for register user
+2026-09-30 12:05:35 [main] INFO  com.parabank.testcases.BaseClass - Entered first name as: Smarty
+2026-09-30 12:05:35 [main] INFO  com.parabank.testcases.BaseClass - Entered last name as: Johns
+2026-09-30 12:05:35 [main] INFO  com.parabank.testcases.BaseClass - Entered address as: Sample
+2026-09-30 12:05:35 [main] INFO  com.parabank.testcases.BaseClass - Entered city as: Pune
+2026-09-30 12:05:35 [main] INFO  com.parabank.testcases.BaseClass - Entered state as: Goa
+2026-09-30 12:05:35 [main] INFO  com.parabank.testcases.BaseClass - Entered zipCode as: 54789
+2026-09-30 12:05:35 [main] INFO  com.parabank.testcases.BaseClass - Entered phoneNo as: 895623145
+2026-09-30 12:05:36 [main] INFO  com.parabank.testcases.BaseClass - Entered Snn as: 526
+2026-09-30 12:05:36 [main] INFO  com.parabank.testcases.BaseClass - Entered Username as: Smarty
+2026-09-30 12:05:36 [main] INFO  com.parabank.testcases.BaseClass - Entered Userpass as: *****
+2026-09-30 12:05:36 [main] INFO  com.parabank.testcases.BaseClass - Confirmed user pass: 
+2026-09-30 12:05:36 [main] INFO  com.parabank.testcases.BaseClass - Clicked to register btn
+2026-09-30 12:05:36 [main] INFO  com.parabank.testcases.BaseClass - Your account was created successfully. You are now logged in.
