@@ -10,7 +10,7 @@ public class RegisterUser extends BaseClass{
 	RegisterUserPageObject reg;
 	
 	
-	@Test
+	@Test(groups= {"Sanity,Regression"})
 	void testRegisterUser(){
 		logger.info("Starting register user test");
 		reg=new RegisterUserPageObject(driver);

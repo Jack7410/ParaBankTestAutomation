@@ -29,6 +29,7 @@ public class LoginPageObject {
 	private By userName=By.xpath("//input[@name='username']");
 	private By userPass=By.xpath("//input[@name='password']");
 	private By loginBtn=By.xpath("//input[@value='Log In']");
+	private By logOutBtn=By.xpath("//a[contains(text(),'Log Out')]");
 	
 	public void setUserName(String userid) {
 		WebElement element=driver.findElement(userName);
@@ -49,6 +50,13 @@ public class LoginPageObject {
 		WebElement element=driver.findElement(loginBtn);
 		fwait.until(ExpectedConditions.elementToBeClickable(element));
 		element.click();
+	}
+	
+	public boolean loginStatus() {
+		if( !driver.findElements(logOutBtn).isEmpty() && driver.findElement(logOutBtn).isDisplayed()) {
+			return true;
+		}
+		return false;
 	}
 	
 	

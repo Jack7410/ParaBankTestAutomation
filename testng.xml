@@ -2,13 +2,15 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 
-
+	<listeners>
+		<listener class-name="com.parabank.utilities.GenerateReports"></listener>
+	</listeners>
  <parameter name="Browser" value="chrome"></parameter>
   <test thread-count="5" name="Test">
   
   	<classes>
-  		<class name="com.parabank.testcases.RegisterUser"></class>
-  		<!-- <class name="com.parabank.testcases.LoginTest"></class> -->
+  		<!-- <class name="com.parabank.testcases.RegisterUser"></class>--> 
+  		<class name="com.parabank.testcases.LoginTest"></class> 
   	</classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
