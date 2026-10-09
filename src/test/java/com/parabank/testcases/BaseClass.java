@@ -17,8 +17,10 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
@@ -28,11 +30,19 @@ import org.apache.logging.log4j.Logger;
 import com.parabank.utilities.ReadProp;
 
 public class BaseClass {
+	
+	
 	WebDriver driver;
 	ReadProp prop;
 	
 	
 	Logger logger = LogManager.getLogger(BaseClass.class);
+	
+	
+	@BeforeSuite
+	void setUpData(){
+		prop=new ReadProp();
+	}
 	
 	@Parameters("Browser")
 	@BeforeMethod
@@ -48,10 +58,10 @@ public class BaseClass {
 		}else {
 			logger.info("Launching Edge Browser");
 			EdgeOptions opt=new EdgeOptions(); 
-			driver=new EdgeDriver();
+			driver=new EdgeDriver(opt);
 		}
 		
-		prop=new ReadProp();
+		
 		logger.info("Maximizing the window and navigating to the URL");
 		driver.manage().window().maximize();
 		logger.info("Navigating to the URL: " + prop.getUrl());
@@ -59,28 +69,40 @@ public class BaseClass {
 	}
 	
 	
-	//@AfterMethod
-	public void tearDown(){
-		logger.info("Closing the browser");
-		logger.info("===================================================");
-		driver.quit();
-	}
-	
 	public void takeScreenshot(WebDriver driver,String methodName) {
 		logger.info("Taking screenshot for the failed test case: " + methodName);
 		try {
 			File screenShot=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);	
-			logger.info("Saving the screenshot to the Screenshots folder");
+			
 			File Sspath=new File(".//Screenshots/"+methodName+".png");
-			logger.info("Screenshot saved at: " + Sspath.getAbsolutePath());
+			
 			FileUtils.copyFile(screenShot, Sspath); 
 			logger.info("Screenshot taken successfully for the failed test case: " + methodName);
+			logger.info("Screenshot saved at: " + Sspath.getAbsolutePath());
 			
 		}catch(Exception e) {
+			System.out.println("Failed to take screenShot");
+			logger.error("Failed to take screenshot");
 			e.printStackTrace(); 
 		}
 		
 
+	}
+	
+	@AfterMethod(alwaysRun = true)
+	public void tearDown(){
+		logger.info("Closing the browser");
+		if(driver!=null) {
+			driver.quit();
+		}
+		logger.info("===================================================");
+	}
+	
+
+	
+	@AfterSuite
+	void windUpData(){
+		
 	}
 	
 	
