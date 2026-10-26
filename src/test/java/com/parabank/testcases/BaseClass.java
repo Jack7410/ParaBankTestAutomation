@@ -89,7 +89,7 @@ public class BaseClass {
 
 	}
 	
-	@AfterMethod(alwaysRun = true)
+	//@AfterMethod(alwaysRun = true)
 	public void tearDown(){
 		logger.info("Closing the browser");
 		if(driver!=null) {

@@ -9,8 +9,9 @@
   <test thread-count="5" name="Test">
   
   	<classes>
-  		<!-- <class name="com.parabank.testcases.RegisterUser"></class>--> 
-  		<class name="com.parabank.testcases.LoginTest"></class> 
+  		<class name="com.parabank.testcases.LoginTest"></class>
+  		<class name="com.parabank.testcases.MakePayment"></class>
+  		
   	</classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

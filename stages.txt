@@ -1,31 +1,108 @@
-stages:
-  - test
+public class ReadExcel {
 
-variables:
-  MAVEN_OPTS: "-Dmaven.repo.local=$CI_PROJECT_DIR/.m2/repository"
-  MAVEN_CLI_OPTS: "--batch-mode --no-transfer-progress"
+	XSSFWorkbook workbook;
+	XSSFSheet sheet;
+	XSSFRow row; 
+	XSSFCell cell; 
+	FileInputStream input;
+	
+	
+	public ReadExcel() {
+		
+		try {
+			input=new FileInputStream(".//src/test/java/comutilities/Data.xlsx");
+			workbook=new XSSFWorkbook(input);
+			sheet=workbook.getSheetAt(0);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	public int getRowcount() {
+		return sheet.getLastRowNum(); 
+	}
+	public int getCellcount() {
+		return sheet.getRow(0).getLastCellNum(); 
+	}
+	
+	public String readData(int rowNum, int cellNum) {
+		row=sheet.getRow(rowNum);
+		cell=row.getCell(cellNum);
+		
+		String data="";
+		try {
+			DataFormatter format=new DataFormatter();
+			data=format.formatCellValue(cell);
+		}catch(Exception e) {
+			return data; 
+		}
+		
+		try {
+			workbook.close();
+			input.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return data; 
+		
+		
+	}
+	
+	
+	
+}
 
-cache:
-  paths:
-    - .m2/repository/
 
-selenium-tests:
-  stage: test
-  image: maven:3.9-eclipse-temurin-17
 
-  script:
-    - echo "Checking Java version..."
-    - java -version
-    - mvn -version
-    - echo "Running Selenium TestNG tests..."
-    - mvn $MAVEN_CLI_OPTS clean test -Dsurefire.suiteXmlFiles=testng.xml
 
-  artifacts:
-    when: always
-    expire_in: 7 days
-    paths:
-      - target/surefire-reports/
-      - test-output/
-      - Reports/
-      - Screenshots/
-      - logs/
+public class DefineLoginDDT {
+	
+		ReadExcel readex;
+		
+		@DataProvider(name="UserData")
+		public String[][] userData(){
+			readex=new ReadExcel(); 
+			 
+			int rowCount=readex.getRowcount();
+			int cellCount=readex.getCellcount(); 
+			String data[][]=new String[rowCount-1][cellCount];
+			for(int i=1;i<rowCount;i++ ) {
+				for(int j=0;j<cellCount;j++) {
+					data[i-1][j]=readex.readData(i, j);
+				}
+			}
+			
+			return data;
+		}
+}
+
+
+@Test(dataProvider = "UserData" , dataProviderClass = DefineLoginDDT.class)
+	void multiLogin(String username, String userpass) {
+		lp=new LoginPage(driver); 
+		readProp=new ReadProperty();
+		
+		driver.get(readProp.getUrl());
+		Assert.assertEquals(driver.getTitle(), readProp.getLoginPageTitle());
+		logger.info("Login page validated");
+		
+		lp.setUserName(username);
+		logger.info("Entered Username");
+		lp.setUserPass(userpass);
+		logger.info("Entered Userpass");
+		lp.clickLogin();
+		logger.info("Clicked to login button");
+		if(lp.isUserIdPresent()) {
+			System.out.println("User logged in");
+			logger.info("User logged in");
+		}else {
+			lp.unSuccessFullMsg(); 
+			logger.error("Loging unsuccessfull");
+		}
+		
+	}
+
+}

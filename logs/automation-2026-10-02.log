@@ -1,0 +1,64 @@
+2026-10-02 09:55:03 [main] INFO  com.parabank.testcases.BaseClass - Launching Chrome Browser
+2026-10-02 09:55:07 [main] INFO  com.parabank.testcases.BaseClass - Maximizing the window and navigating to the URL
+2026-10-02 09:55:07 [main] INFO  com.parabank.testcases.BaseClass - Navigating to the URL: https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC
+2026-10-02 09:55:10 [main] INFO  com.parabank.testcases.BaseClass - Starting Login Test
+2026-10-02 09:55:11 [main] INFO  com.parabank.testcases.BaseClass - Entering Username: Natasha
+2026-10-02 09:55:11 [main] INFO  com.parabank.testcases.BaseClass - Entering Password: *****
+2026-10-02 09:55:12 [main] INFO  com.parabank.testcases.BaseClass - Clicking on Login Button
+2026-10-02 09:55:12 [main] INFO  com.parabank.testcases.BaseClass - Taking screenshot for the failed test case: userLogin
+2026-10-02 09:55:12 [main] INFO  com.parabank.testcases.BaseClass - Screenshot taken successfully for the failed test case: userLogin
+2026-10-02 09:55:12 [main] INFO  com.parabank.testcases.BaseClass - Screenshot saved at: E:\Java\PracticeAutomation\ParaBankTestAutomation\.\Screenshots\userLogin.png
+2026-10-02 09:55:12 [main] ERROR com.parabank.testcases.BaseClass - Invalid username or password
+2026-10-02 09:55:12 [main] INFO  com.parabank.testcases.BaseClass - Taking screenshot for the failed test case: userLogin
+2026-10-02 09:55:13 [main] INFO  com.parabank.testcases.BaseClass - Screenshot taken successfully for the failed test case: userLogin
+2026-10-02 09:55:13 [main] INFO  com.parabank.testcases.BaseClass - Screenshot saved at: E:\Java\PracticeAutomation\ParaBankTestAutomation\.\Screenshots\userLogin.png
+2026-10-02 09:55:13 [main] INFO  com.parabank.testcases.BaseClass - Closing the browser
+2026-10-02 09:55:13 [main] INFO  com.parabank.testcases.BaseClass - ===================================================
+2026-10-02 09:58:26 [main] INFO  com.parabank.testcases.BaseClass - Launching Chrome Browser
+2026-10-02 09:58:28 [main] INFO  com.parabank.testcases.BaseClass - Maximizing the window and navigating to the URL
+2026-10-02 09:58:28 [main] INFO  com.parabank.testcases.BaseClass - Navigating to the URL: https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC
+2026-10-02 09:58:30 [main] INFO  com.parabank.testcases.BaseClass - Starting Login Test
+2026-10-02 09:58:31 [main] INFO  com.parabank.testcases.BaseClass - Entering Username: Natasha
+2026-10-02 09:58:31 [main] INFO  com.parabank.testcases.BaseClass - Entering Password: *****
+2026-10-02 09:58:32 [main] INFO  com.parabank.testcases.BaseClass - Clicking on Login Button
+2026-10-02 09:58:32 [main] INFO  com.parabank.testcases.BaseClass - Taking screenshot for the failed test case: userLogin
+2026-10-02 09:58:32 [main] INFO  com.parabank.testcases.BaseClass - Screenshot taken successfully for the failed test case: userLogin
+2026-10-02 09:58:32 [main] INFO  com.parabank.testcases.BaseClass - Screenshot saved at: E:\Java\PracticeAutomation\ParaBankTestAutomation\.\Screenshots\userLogin.png
+2026-10-02 09:58:32 [main] ERROR com.parabank.testcases.BaseClass - Invalid username or password
+2026-10-02 09:58:32 [main] INFO  com.parabank.testcases.BaseClass - Taking screenshot for the failed test case: userLogin
+2026-10-02 09:58:32 [main] INFO  com.parabank.testcases.BaseClass - Screenshot taken successfully for the failed test case: userLogin
+2026-10-02 09:58:32 [main] INFO  com.parabank.testcases.BaseClass - Screenshot saved at: E:\Java\PracticeAutomation\ParaBankTestAutomation\.\Screenshots\userLogin.png
+2026-10-02 09:58:32 [main] INFO  com.parabank.testcases.BaseClass - Closing the browser
+2026-10-02 09:58:32 [main] INFO  com.parabank.testcases.BaseClass - ===================================================
+2026-10-02 10:01:36 [main] INFO  com.parabank.testcases.BaseClass - Launching Chrome Browser
+2026-10-02 10:01:38 [main] INFO  com.parabank.testcases.BaseClass - Maximizing the window and navigating to the URL
+2026-10-02 10:01:38 [main] INFO  com.parabank.testcases.BaseClass - Navigating to the URL: https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC
+2026-10-02 10:01:41 [main] INFO  com.parabank.testcases.BaseClass - Starting Login Test
+2026-10-02 10:01:41 [main] INFO  com.parabank.testcases.BaseClass - Entering Username: Natasha
+2026-10-02 10:01:41 [main] INFO  com.parabank.testcases.BaseClass - Entering Password: *****
+2026-10-02 10:01:42 [main] INFO  com.parabank.testcases.BaseClass - Clicking on Login Button
+2026-10-02 10:01:42 [main] INFO  com.parabank.testcases.BaseClass - Taking screenshot for the failed test case: userLogin
+2026-10-02 10:01:42 [main] INFO  com.parabank.testcases.BaseClass - Screenshot taken successfully for the failed test case: userLogin
+2026-10-02 10:01:42 [main] INFO  com.parabank.testcases.BaseClass - Screenshot saved at: E:\Java\PracticeAutomation\ParaBankTestAutomation\.\Screenshots\userLogin.png
+2026-10-02 10:01:42 [main] ERROR com.parabank.testcases.BaseClass - Invalid username or password
+2026-10-02 10:01:42 [main] INFO  com.parabank.testcases.BaseClass - Taking screenshot for the failed test case: userLogin
+2026-10-02 10:01:42 [main] INFO  com.parabank.testcases.BaseClass - Screenshot taken successfully for the failed test case: userLogin
+2026-10-02 10:01:42 [main] INFO  com.parabank.testcases.BaseClass - Screenshot saved at: E:\Java\PracticeAutomation\ParaBankTestAutomation\.\Screenshots\userLogin.png
+2026-10-02 10:01:43 [main] INFO  com.parabank.testcases.BaseClass - Closing the browser
+2026-10-02 10:01:43 [main] INFO  com.parabank.testcases.BaseClass - ===================================================
+2026-10-02 10:17:23 [main] INFO  com.parabank.testcases.BaseClass - Launching Chrome Browser
+2026-10-02 10:17:25 [main] INFO  com.parabank.testcases.BaseClass - Maximizing the window and navigating to the URL
+2026-10-02 10:17:25 [main] INFO  com.parabank.testcases.BaseClass - Navigating to the URL: https://parabank.parasoft.com/parabank/index.htm?ConnType=JDBC
+2026-10-02 10:17:27 [main] INFO  com.parabank.testcases.BaseClass - Starting Login Test
+2026-10-02 10:17:27 [main] INFO  com.parabank.testcases.BaseClass - Entering Username: Natasha
+2026-10-02 10:17:27 [main] INFO  com.parabank.testcases.BaseClass - Entering Password: *****
+2026-10-02 10:17:29 [main] INFO  com.parabank.testcases.BaseClass - Clicking on Login Button
+2026-10-02 10:17:29 [main] INFO  com.parabank.testcases.BaseClass - Taking screenshot for the failed test case: userLogin
+2026-10-02 10:17:29 [main] INFO  com.parabank.testcases.BaseClass - Screenshot taken successfully for the failed test case: userLogin
+2026-10-02 10:17:29 [main] INFO  com.parabank.testcases.BaseClass - Screenshot saved at: E:\Java\PracticeAutomation\ParaBankTestAutomation\.\Screenshots\userLogin.png
+2026-10-02 10:17:29 [main] ERROR com.parabank.testcases.BaseClass - Invalid username or password
+2026-10-02 10:17:29 [main] INFO  com.parabank.testcases.BaseClass - Taking screenshot for the failed test case: userLogin
+2026-10-02 10:17:29 [main] INFO  com.parabank.testcases.BaseClass - Screenshot taken successfully for the failed test case: userLogin
+2026-10-02 10:17:29 [main] INFO  com.parabank.testcases.BaseClass - Screenshot saved at: E:\Java\PracticeAutomation\ParaBankTestAutomation\.\Screenshots\userLogin.png
+2026-10-02 10:17:29 [main] INFO  com.parabank.testcases.BaseClass - Closing the browser
+2026-10-02 10:17:30 [main] INFO  com.parabank.testcases.BaseClass - ===================================================

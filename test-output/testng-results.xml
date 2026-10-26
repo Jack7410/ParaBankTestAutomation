@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="2" passed="1" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-10-02T10:17:23 IST" name="Suite" finished-at="2026-10-02T10:17:30 IST" duration-ms="7148">
+  <suite started-at="2026-10-25T14:55:20 IST" name="Suite" finished-at="2026-10-25T14:55:27 IST" duration-ms="6832">
     <groups>
       <group name="Sanity">
-        <method signature="LoginTest.userLogin()[pri:0, instance:com.parabank.testcases.LoginTest@b78a709]" name="userLogin" class="com.parabank.testcases.LoginTest"/>
+        <method signature="LoginTest.userLogin()[pri:0, instance:com.parabank.testcases.LoginTest@15cafec7]" name="userLogin" class="com.parabank.testcases.LoginTest"/>
       </group> <!-- Sanity -->
       <group name="Regression">
-        <method signature="LoginTest.userLogin()[pri:0, instance:com.parabank.testcases.LoginTest@b78a709]" name="userLogin" class="com.parabank.testcases.LoginTest"/>
+        <method signature="LoginTest.userLogin()[pri:0, instance:com.parabank.testcases.LoginTest@15cafec7]" name="userLogin" class="com.parabank.testcases.LoginTest"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2026-10-02T10:17:23 IST" name="Test" finished-at="2026-10-02T10:17:30 IST" duration-ms="7148">
+    <test started-at="2026-10-25T14:55:20 IST" name="Test" finished-at="2026-10-25T14:55:27 IST" duration-ms="6832">
       <class name="com.parabank.testcases.LoginTest">
-        <test-method is-config="true" signature="setUpData()[pri:0, instance:com.parabank.testcases.LoginTest@b78a709]" started-at="2026-10-02T10:17:23 IST" name="setUpData" finished-at="2026-10-02T10:17:23 IST" duration-ms="22" status="PASS">
+        <test-method is-config="true" signature="setUpData()[pri:0, instance:com.parabank.testcases.LoginTest@15cafec7]" started-at="2026-10-25T14:55:20 IST" name="setUpData" finished-at="2026-10-25T14:55:20 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpData -->
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.parabank.testcases.LoginTest@b78a709]" started-at="2026-10-02T10:17:23 IST" name="setUp" finished-at="2026-10-02T10:17:27 IST" duration-ms="4392" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.parabank.testcases.LoginTest@15cafec7]" started-at="2026-10-25T14:55:20 IST" name="setUp" finished-at="2026-10-25T14:55:24 IST" duration-ms="3629" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,24 +28,41 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="userLogin()[pri:0, instance:com.parabank.testcases.LoginTest@b78a709]" started-at="2026-10-02T10:17:27 IST" name="userLogin" finished-at="2026-10-02T10:17:29 IST" duration-ms="2273" status="FAIL">
-          <exception class="java.lang.AssertionError">
+        <test-method signature="userLogin()[pri:0, instance:com.parabank.testcases.LoginTest@15cafec7]" started-at="2026-10-25T14:55:24 IST" name="userLogin" finished-at="2026-10-25T14:55:26 IST" duration-ms="2279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method is-config="true" signature="windUpData()[pri:0, instance:com.parabank.testcases.LoginTest@15cafec7]" started-at="2026-10-25T14:55:28 IST" name="windUpData" finished-at="2026-10-25T14:55:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- windUpData -->
+      </class> <!-- com.parabank.testcases.LoginTest -->
+      <class name="com.parabank.testcases.MakePayment">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.parabank.testcases.MakePayment@79145d5a]" started-at="2026-10-25T14:55:26 IST" name="setUp" finished-at="2026-10-25T14:55:27 IST" duration-ms="749" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
             <message>
-              <![CDATA[expected [true] but found [false]]]>
+              <![CDATA[Cannot invoke "com.parabank.utilities.ReadProp.getUrl()" because "this.prop" is null]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertTrue(Assert.java:57)
-at org.testng.Assert.assertTrue(Assert.java:67)
-at com.parabank.testcases.LoginTest.userLogin(LoginTest.java:34)
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.parabank.utilities.ReadProp.getUrl()" because "this.prop" is null
+at com.parabank.testcases.BaseClass.setUp(BaseClass.java:67)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
 at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
@@ -70,19 +87,57 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- userLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parabank.testcases.LoginTest@b78a709]" started-at="2026-10-02T10:17:29 IST" name="tearDown" finished-at="2026-10-02T10:17:30 IST" duration-ms="243" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="makePay()[pri:0, instance:com.parabank.testcases.MakePayment@79145d5a]" started-at="2026-10-25T14:55:27 IST" name="makePay" finished-at="2026-10-25T14:55:27 IST" depends-on-methods="com.parabank.testcases.LoginTest.userLogin" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.parabank.utilities.ReadProp.getUrl()" because "this.prop" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.parabank.utilities.ReadProp.getUrl()" because "this.prop" is null
+at com.parabank.testcases.BaseClass.setUp(BaseClass.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:836)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:601)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="windUpData()[pri:0, instance:com.parabank.testcases.LoginTest@b78a709]" started-at="2026-10-02T10:17:30 IST" name="windUpData" finished-at="2026-10-02T10:17:30 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- windUpData -->
-      </class> <!-- com.parabank.testcases.LoginTest -->
+        </test-method> <!-- makePay -->
+      </class> <!-- com.parabank.testcases.MakePayment -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -7,11 +7,18 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="com.parabank.testcases.MakePayment">
+        <methods>
+          <include name="setUp"/>
+          <include name="makePay"/>
+          <include name="windUpData"/>
+          <include name="setUpData"/>
+        </methods>
+      </class> <!-- com.parabank.testcases.MakePayment -->
       <class name="com.parabank.testcases.LoginTest">
         <methods>
           <include name="userLogin"/>
           <include name="setUp"/>
-          <include name="tearDown"/>
           <include name="windUpData"/>
           <include name="setUpData"/>
         </methods>
